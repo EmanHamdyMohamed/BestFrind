@@ -29,13 +29,13 @@
                 <div class="row form-group" id="">
                     <div class="col-md-6">
                         <label >Question</label>
-                        <input type="text" class="form-control" ref="question" id="question" v-model="question" maxlength="50" placeholder="Enter Question">
-                        <small id="nameHelp" class="form-text text-muted">Max length 50 character</small>
+                        <input type="text" class="form-control" ref="question" id="question" v-model="question"  placeholder="Enter Question">
+                        
                     </div>
                     <div class="col-md-6">
                         <label >Answer</label>
-                        <input type="text" class="form-control" ref="answer" id="answer" v-model="answer" maxlength="50"  placeholder="Enter Answer">
-                        <small id="nameHelp" class="form-text text-muted">Max length 50 character</small>
+                        <input type="text" class="form-control" ref="answer" id="answer" v-model="answer"   placeholder="Enter Answer">
+                        
                     </div>
                     
                 </div>
